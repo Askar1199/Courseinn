@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Euclid";
+  src: url(/fonts/Euclid\ Circular\ A\ Bold.woff2),
+    url(/fonts/Euclid\ Circular\ A\ Bold.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Euclid";
+  src: url(/fonts/Euclid\ Circular\ A\ Medium.woff2),
+    url(/fonts/Euclid\ Circular\ A\ Medium.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Euclid";
+  src: url(/fonts/Euclid\ Circular\ A\ Light.woff2),
+    url(/fonts/Euclid\ Circular\ A\ Light.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Euclid";
+  src: url(/fonts/Euclid\ Circular\ A\ SemiBold.woff2),
+    url(/fonts/Euclid\ Circular\ A\ SemiBold.woff);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Euclid";
+  src: url(/fonts/Euclid\ Circular\ A\ Regular.woff2),
+    url(/fonts/Euclid\ Circular\ A\ Regular.woff);
+  font-weight: 400;
+}
+
+$font: "Euclid";
+$primary_color: #2f57ef;
+$secondary_color: #b966e7;
+$heading_color: #192335;
+
+@mixin tablet {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin tablet2 {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin mobileL {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
