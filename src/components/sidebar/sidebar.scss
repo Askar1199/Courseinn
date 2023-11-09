@@ -60,6 +60,9 @@
           display: flex;
           align-items: center;
           color: $heading_color;
+          svg{
+            cursor: pointer;
+          }
         }
       }
       .description {
