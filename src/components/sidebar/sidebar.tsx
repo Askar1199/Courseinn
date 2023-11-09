@@ -82,22 +82,22 @@ const sidebar = ({ state, close }: props) => {
                 <span>Find with us</span>
                 <ul>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <FiFacebook />
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <FiTwitter />
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <FiInstagram />
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <FiLinkedin />
                     </a>
                   </li>
